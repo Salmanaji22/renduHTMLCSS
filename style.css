@@ -1,7 +1,8 @@
 *{
-     padding: 0px;
+    padding: 0px;
     margin:0px;
-
+    font-family:cursive;
+    
 }
 
 
@@ -10,8 +11,14 @@ header{
     background-color:#f0e9e4;
     justify-content: space-between;
     color:#46352A;
+    align-items: center;
     
 
+    
+}
+a{
+    text-decoration: none;
+    color: maroon;
     
 }
 ul{
@@ -21,17 +28,20 @@ ul{
     gap: 20px;
     }
 
-    h1{
+    /* h1{
         color:#ffffff;
         margin-bottom: 10px; 
       *
+    } */
+    .div1{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+        align-items:center;
     }
-    text-align: center;
-
     
-    .div0{
-        color: #46352A;
-    }
+   
 
     .square{
         border-color: #46352A;
@@ -39,17 +49,122 @@ ul{
         justify-content: space-between;
         gap: 20px;
         flex-direction: row;
+    
     }
 
     .section1{
+        display: flex;
     background-color: #46352A;
     color: aliceblue;
     
     }
-    .div1{
-        display:flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items:center;
-        justify-content: flex-start;
+  
+
+.valeur{
+    border: #46352A 1px solid;
+    text-align: center;
+    margin: 20px;
+    padding: 2%;
+    
+}
+.valeurs {
+    display: flex;
+    margin: 10 10%;
+    justify-content: space-around;
+}
+
+.art2{
+
+}
+h2{
+    margin: 15px;
+}
+
+#fleur{
+    width: 50%;
+}
+
+#textevert{
+    background-color: #4A6743;
+    padding: 25px;
+    
+}
+.section2{
+    background-color: #F2EFEE;
+    text-align: center;
+    *{
+        margin: 20px;
     }
+}
+.cards{
+    
+    display: flex;
+        justify-content: center;
+        padding: 64px;
+        gap: 44px;
+}
+.card{
+    width: fit-content;
+    padding: 12px;
+    border-radius: 17PX;
+    box-shadow: 0 4px 15px #00000045;
+
+    img{
+        width: 280px;
+
+    }
+}
+.formular{
+    width: fit-content;
+    margin: 32px auto;
+    padding: 40px;
+    box-shadow: 0 4px 15px #00000026;
+    border-radius: 18px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    text-align: center;
+    background-color: #46352A;
+}
+
+h3{
+    text-align: center;
+}
+   
+p{
+    text-align: center;
+    
+}
+ 
+
+button{
+    border-radius: 3px;
+      padding:5px;
+      margin: 10px 0;
+      background-color: #4A6743;
+      color: white;
+      border-style: none;
+
+}
+.section3{
+    text-align: center;
+}
+#input{
+    display: flex;
+    padding: 5px;
+
+
+}
+
+main{
+    background-color: #f0e9e4;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}

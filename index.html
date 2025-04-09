@@ -27,122 +27,125 @@
     </header>
       <main>
         <section class="section1">
-            <div>
                 <img id="fleur" src="bougie_fleur (2).jpg" alt="" srcset="">
                 <div  class="div1">
                     <img src="logoB.svg" alt="logo" srcset="">
                     <h1>Des bougies qui racontent une histoire</h1>
                 </div>
               
-            </div>
         </section>
         <section class="section2">
             <h2>Pourquoi acheter nos bougies?</h2>
             <p>Bienvenue chez Lueur & Parfum, une boutique artisanale où chaque bougie est coulée à la main avec amour. Nos
                 parfums sont inspirés de la nature, des saisons et des souvenirs...</p>
-                <div class="square"> 
-                <img src="plant.svg" alt="" srcset="">
-                      <p>
-                          Ingrédients naturels.
-                      </p>
+                <div class="valeurs">
+                    <div class="valeur"> 
+                        <img src="plant.svg" alt="" srcset="">
+                        <p>
+                            Ingrédients naturels.
+                        </p>
                     </div>
 
-                    <div  class="square">
+                    <div  class="valeur">
                     <img src="hand.svg" alt="" srcset="">
                           <p>
                             Fait main.
                           </p>
                         </div>
 
-                        <div  class="square">
+                        <div  class="valeur">
                         <img src="planet.svg" alt="" srcset="">
                               <p>
                                 Ecorésponsable.
                               </p>
                             </div>
+                </div>
+               
         </section>
 
-       <h3>
+       <h3 id="textevert">
         Laissez-vous séduire par les parfums délicats de nos bougies artisanales.
        </h3> 
 
-       <section>
-        <article>
-            <h2>Pourquoi acheter nos bougies?</h2>
-            <p>Bienvenue chez Lueur & Parfum, une boutique artisanale où chaque bougie est coulée à la main avec amour. Nos
-                parfums sont inspirés de la nature, des saisons et des souvenirs...</p>
-                <article class="card" >
-                    <img class="bougie" src="parfum_cristal.jpg" alt="parfum">
-                      <h3>Feu de Camp</h3>
-                      <h4>29,90 €</h4>
-                      <p>
-                          Une odeur boisée avec une touche fumée.
-                      </p>
-                      <button>Ajouter au panier</button>
-                  </article>
-                  
-                      <article class="card" >
-                          <img class="pink" src="parfum1.jpg" alt="parfum">
-                            <h3>Rose Antique</h3>
-                            <h4>29,90 €</h4>
-                            <p>
-                                Douceur florale avec une
-                                touche poudrée.
-                            </p>
-                            <button>Ajouter au panier</button>
-                        </article>
-                        
-                            <article class="card" >
-                                <img class="pink" src="parfum1.jpg" alt="parfum">
-                                  <h3>Thé Chai Épicé</h3>
-                                  <h4>29,90 €</h4>
-                                  <p>
-                                    Notes de cannelle,
-                                    cardamome et gingembre.
-                                  </p>
-                                  <button>Ajouter au panier</button>
-                              </article>
-       </section>
-        <section>
-        <form>
-            <article class="card">
-                <form action="" method="get" class="form-example">
-                    
-                    <div id="input">
-                        <div>
-                            <label for="prenom">Prénom:
-                            
-                                <br>
-                              </label>
-                              <input type="text" name="Nom" id="nom" required />  
-                        </div>
-                          
-                        <div>
-                            <label for="Mail">Mail:
-                                <br> </label>
-                              <input type="Mail" name="Mail" id="Mail" required />
+       <section class="section3">
+            <h2>Nos dernières bougies</h2>
+            <div class="cards">
+
+                <div class="card" >
+                    <img class="bougie" src="vanille.png" alt="parfum">
+                    <h4>Feu de Camp</h4>
+                    <h5>29,90 €</h5>
+                    <p>
+                        Une odeur boisée avec une touche fumée.
+                    </p>
+                    <button>Ajouter au panier</button>
+                </div>
+
+                <div class="card" >
+                    <img class="bougie" src="cerisier.png" alt="parfum">
+                    <h4>Rose Antique</h4>
+                    <h5>29,90 €</h5>
+                    <p>
+                        Douceur florale avec une touche poudrée.
+
+                    </p>
+                    <button>Ajouter au panier</button>
+                </div>
+
+                <div class="card" >
+                    <img class="bougie" src="chailatte.png" alt="parfum">
+                    <h4>Thé Chai Épicé</h4>
+                    <h5>29,90 €</h5>
+                    <p>
+                        Notes de cannelle, cardamome et gingembre.
+
+                    </p>
+                    <button>Ajouter au panier</button>
+                </div>
                 
-                        </div>
-                    </div>
-
-                      <br> <br>
-                    
-                      <label for="">Message</label>
-                      <textarea>
-                    </textarea>
-
-                        <br> <br> 
-                       
-
-                        <button>Envoyer</button>
-                 
-                  </form>
-            </article>
+            </div>
+        </section>
+                
+        <h3> Nous contacter </h3>
+        <section class="formular">
             
+                    <form action="" method="get" class="form-example">
+                        
+                        <div id="input">
+                            <div class="contact">
+                                <label for="prenom">Prénom:
+                                
+                                    
+                                </label>
+                                <input type="text" name="Nom" id="nom" required />  
+                            </div>
+                            
+                            <div class="contact">
+                                <label for="Mail">Mail: </label>
+                                    
+                                <input type="Mail" name="Mail" id="Mail" required />
+                    
+                            </div>
+                        </div>
+
+                        
+                        <div class="contact">
+
+                           <label for="">Message</label>
+                <textarea name="Message" id="Message"></textarea>
+                        </div>
+                        
+
+        
+
+                            <button>Envoyer</button>
+                    
+                </article>
+            </form>
         </section>
    
     <footer>
-        <img src="" alt="logo" srcset="">
+        <img src="logoB.svg" alt="" srcset="">
        <p>
         Bougies artisanales coulées à la main en France, avec des ingrédients naturels et un soupçon de magie.
        </p> 
