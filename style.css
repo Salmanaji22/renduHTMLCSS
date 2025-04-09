@@ -87,13 +87,14 @@ h2{
 #textevert{
     background-color: #4A6743;
     padding: 25px;
-    
+    color: ivory;
+
 }
 .section2{
     background-color: #F2EFEE;
     text-align: center;
     *{
-        margin: 20px;
+        margin: 12px;
     }
 }
 .cards{
