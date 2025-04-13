@@ -186,3 +186,56 @@ main{
     justify-content: space-around;
 }
 
+/* page a propos */
+.sect6 {
+    background-color: #F2EFEE;
+    text-align: center;
+    padding: 60px;
+}
+.sect7 {
+    background-color: #dcd3d0;
+    padding: 2%;
+}
+.div5 {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    WIDTH: 60%;
+    margin-left: 30%;
+    gap: 60px;
+    padding: 2%;
+}
+.sect8 {
+    display: flex;
+    background-color: #F2EFEE;
+    padding: 3%;
+    gap: 40px
+}
+.div6 {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 30px;
+}
+.divp {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 274px;
+}
+.p2{
+    text-align: justify;
+    width: 600px;
+    margin-left: 23%;
+    padding: 2%;
+}
+.p3{
+    text-align: justify;
+    width: 436PX;
+}
+.sect9{
+    display: flex;
+}
+.p4{
+    text-align: justify;
+}
