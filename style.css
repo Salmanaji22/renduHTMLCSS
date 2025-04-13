@@ -172,3 +172,17 @@ main{
 
 /* css page Apropos */
 
+.values{
+    border: #46352A 1px solid;
+    text-align: center;
+    margin: 20px;
+    padding: 2%;
+}
+
+
+.value{
+    display: flex;
+    margin: 10 10%;
+    justify-content: space-around;
+}
+
